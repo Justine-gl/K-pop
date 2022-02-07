@@ -1,0 +1,103 @@
+body{
+    font-family: "Kumbh Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.page {
+    background-image: url(./image/fond-main1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 50vw;
+    padding: 0;
+    margin: 0;
+  }
+  
+
+
+/* barre de navigation */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    color: #fff;
+    background-color: rgb(31, 30, 30);
+    padding: 10px 0px;
+}
+
+nav .buttons a{
+    margin-right: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+nav .buttons a:hover{
+    color: rgb(144, 142, 142);
+  }
+nav .logo{
+    font-size: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 25px;
+}
+nav .logo a{
+    text-decoration: none;
+    color: #fff;
+}
+/* fin de la barre de navigation */
+
+/* Header */
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+header h1{
+    display: flex;
+    width: max-content ;
+    font-size: 80px;
+    margin-bottom: 0;
+    padding: 150px 150px 0px 150px;
+}
+header p{
+    display: flex;
+    text-align: center;
+    margin-bottom: 200px;
+    font-size: 20px;
+}
+/* fin du header */
+
+/* page du bas */
+footer{
+    margin-bottom: 0;
+    background-color: rgb(31, 30, 30);
+    color: #fff;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer h5{
+    text-align: center;
+}
+footer h5 a{
+    /* text-decoration: none; */
+    color: #fff;
+}
+footer p{
+    text-align: center;
+    font-size: 13px;
+}
+
+
+

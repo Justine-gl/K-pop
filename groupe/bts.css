@@ -52,8 +52,12 @@ nav {
   z-index: 2;
 }
 
-nav .buttons a {
-  margin-right: 50px;
+nav .buttons{
+  width: 319px;
+  display: flex;
+  justify-content: space-around;
+}
+nav .buttons a{
   cursor: pointer;
   font-size: 18px;
   text-decoration: none;
@@ -210,4 +214,66 @@ footer h5 a {
 footer p {
   text-align: center;
   font-size: 13px;
+}
+
+@media screen and (max-width: 1000px){
+
+  .page{
+    height: 900px;
+    max-width: 100vw;
+  }
+
+  nav{
+    display: flex;
+    justify-content: center;
+  }
+  nav .buttons a{
+    margin-top: 10px;
+    font-size: 15px;
+  }
+
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 820px;
+  }
+  
+  header p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+  }
+
+  .membres{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .premier_niveau{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 980px;
+  }
+  .deuxieme_niveau{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 700px;
+  }
+  .section_video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .section_video iframe{
+    width="560"; height="315";
+    width: 380px;
+    height: 130;
+  }
+
 }

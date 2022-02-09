@@ -112,7 +112,7 @@ footer p{
         display: flex;
         justify-content: center;
       }
-      nav .buttons{
+      nav .buttons a{
         margin-top: 10px;
         font-size: 14px;
       }

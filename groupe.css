@@ -50,7 +50,7 @@ body {
     padding: 10px 0px;
   }
   
-  nav .buttons a {
+  nav .buttons a{
     margin-right: 50px;
     cursor: pointer;
     font-size: 18px;
@@ -232,7 +232,7 @@ body {
     display: flex;
     justify-content: center;
   }
-  nav .buttons{
+  nav .buttons a{
     margin-top: 10px;
     font-size: 14px;
   }

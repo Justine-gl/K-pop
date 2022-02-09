@@ -271,7 +271,6 @@ footer p {
     justify-content: center;
   }
   .section_video iframe{
-    width="560"; height="315";
     width: 380px;
     height: 130;
   }

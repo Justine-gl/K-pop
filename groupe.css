@@ -119,12 +119,17 @@ body {
     font-size: 30px;
     padding: 10px;
   }
+  .espace{
+    width: 100%;
+    height: 90px;
+  }
   
   /* première partie */
   section .premier_niveau {
     display: flex;
     justify-content: space-around;
-    padding: 150px 40px 50px 40px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
   .groupe:hover {
     transform: scale(1.075);
@@ -156,7 +161,8 @@ body {
   section .deuxieme_niveau {
     display: flex;
     justify-content: space-around;
-    padding: 50px 40px 50px 40px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
   #ateez {
     background-image: url(./image/ATEEZ.jpeg);
@@ -180,7 +186,9 @@ body {
   section .troisieme_niveau {
     display: flex;
     justify-content: space-around;
-    padding: 50px 40px 150px 40px;
+    padding-bottom: 90px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
   #kang_daniel {
     background-image: url(./image/KANGDANIEL.jpg);
@@ -251,19 +259,22 @@ body {
     margin-left: 20px;
     margin-right: 20px;
   }
+  .espace{
+    height: 0px;
+  }
 
 
   .partie_groupe{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 50px;
   }
   .premier_niveau{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding-top: 20px;
     height: 1000px;
   }
   .deuxieme_niveau{
@@ -271,7 +282,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding-top: 20px;
     height: 1000px;
   }
   .troisieme_niveau{
@@ -279,7 +289,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding-top: 20px;
     height: 1000px;
   }
 

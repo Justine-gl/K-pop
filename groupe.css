@@ -32,7 +32,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     width: 100vw;
-    height: 50vw;
+    height: 55vw;
     padding: 0;
     margin: 0;
   }
@@ -54,6 +54,7 @@ body {
     width: 319px;
     display: flex;
     justify-content: space-around;
+    padding-right: 60px;
   }
   nav .buttons a{
     cursor: pointer;
@@ -80,8 +81,10 @@ body {
   header {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     color: #fff;
+    height: 40vw;
   }
   header h1 {
     display: flex;
@@ -235,6 +238,9 @@ body {
 
 @media screen and (max-width: 1000px){
 
+  body{
+    width: 100vw;
+  }
   .page{
     height: 900px;
     max-width: 100vw;

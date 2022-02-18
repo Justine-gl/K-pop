@@ -122,12 +122,14 @@ background: linear-gradient(to right, #654ea3, #eaafc8); /* W3C, IE 10+/ Edge, F
 .premier_niveau {
   display: flex;
   justify-content: space-around;
-  margin: 100px 50px 90px 50px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .deuxieme_niveau {
   display: flex;
   justify-content: space-around;
-  margin: 30px 200px 70px 200px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .img_membre {
   width: 250px;
@@ -203,6 +205,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 footer h5 {
   text-align: center;

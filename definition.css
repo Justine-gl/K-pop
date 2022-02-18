@@ -36,6 +36,7 @@ nav .buttons{
     width: 319px;
     display: flex;
     justify-content: space-around;
+    padding-right: 60px;
 }
 nav .buttons a{
     cursor: pointer;
@@ -62,8 +63,10 @@ nav .logo a{
 header{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     color: #fff;
+    height: 45vw;
 }
 header h1{
     display: flex;

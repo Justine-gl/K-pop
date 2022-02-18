@@ -1,156 +1,156 @@
 body{
-    font-family: "Kumbh Sans", sans-serif;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    overflow-x: hidden;
+  font-family: "Kumbh Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
 }
 .page {
-    background-image: url(./image/fond-main1.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-    width: 100vw;
-    height: 50vw;
-    padding: 0;
-    margin: 0;
-  }
-  
+  background-image: url(./image/fond-main1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 50vw;
+  padding: 0;
+  margin: 0;
+}
+
 
 
 /* barre de navigation */
 nav{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    color: #fff;
-    background-color: rgb(31, 30, 30);
-    padding: 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  color: #fff;
+  background-color: rgb(31, 30, 30);
+  padding: 10px 0px;
 }
 
 nav .buttons{
-    width: 319px;
-    display: flex;
-    justify-content: space-around;
+  width: 319px;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 60px;
 }
 nav .buttons a{
-    cursor: pointer;
-    font-size: 18px;
-    text-decoration: none;
-    color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
 }
 nav .buttons a:hover{
-    color: rgb(144, 142, 142);
-  }
+  color: rgb(144, 142, 142);
+}
 nav .logo{
-    font-size: 2rem;
-    text-decoration: none;
-    cursor: pointer;
-    margin-left: 25px;
+  font-size: 2rem;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 25px;
 }
 nav .logo a{
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 /* fin de la barre de navigation */
 
 /* Header */
 header{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
 }
 header h1{
-    display: flex;
-    width: max-content ;
-    font-size: 80px;
-    margin-bottom: 0;
-    padding: 150px 150px 0px 150px;
+  display: flex;
+  width: max-content ;
+  font-size: 80px;
+  margin-bottom: 0;
+  padding: 150px 150px 0px 150px;
 }
 header p{
-    display: flex;
-    text-align: center;
-    margin-bottom: 200px;
-    font-size: 20px;
+  display: flex;
+  text-align: center;
+  margin-bottom: 200px;
+  font-size: 20px;
 }
 /* fin du header */
 
 /* page du bas */
 footer{
-    margin-bottom: 0;
-    background-color: rgb(31, 30, 30);
-    color: #fff;
-    font-size: 15px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+  margin-bottom: 0;
+  background-color: rgb(31, 30, 30);
+  color: #fff;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 footer h5{
-    text-align: center;
+  text-align: center;
 }
 footer h5 a{
-    /* text-decoration: none; */
-    color: #fff;
+  /* text-decoration: none; */
+  color: #fff;
 }
 footer p{
-    text-align: center;
-    font-size: 13px;
+  text-align: center;
+  font-size: 13px;
 }
 
 @media screen and (max-width: 1000px){
 
 
-    .page{
-        height: 730px;
-        max-width: 100vw;
-      }
-    
-      nav{
-        display: flex;
-        justify-content: center;
-      }
+  .page{
+      height: 730px;
+      max-width: 100vw;
+    }
+  
+    nav{
+      display: flex;
+      justify-content: center;
+    }
 
-      nav .buttons a{
-        margin-top: 10px;
-        font-size: 15px;
-      }
-    
+    nav .buttons a{
+      margin-top: 10px;
+      font-size: 15px;
+    }
+  
 }
 
 @media screen and (max-width: 430px){
 
 
-    .page{
-        height: 900px;
-        max-width: 100vw;
-      }
-    
-      nav{
-        display: flex;
-        justify-content: center;
-      }
+  .page{
+      height: 900px;
+      max-width: 100vw;
+    }
+  
+    nav{
+      display: flex;
+      justify-content: center;
+    }
 
-      nav .buttons a{
-        margin-top: 10px;
-        font-size: 15px;
-      }
+    nav .buttons a{
+      margin-top: 10px;
+      font-size: 15px;
+    }
+  
+    header{
+      display: flex;
+      justify-content: center;
+      height: 740px;
+    }
     
-      header{
-        display: flex;
-        justify-content: center;
-        height: 740px;
-      }
-      
-      header p{
-        margin-left: 20px;
-        margin-right: 20px;
-      }
+    header p{
+      margin-left: 20px;
+      margin-right: 20px;
+    }
 }
-

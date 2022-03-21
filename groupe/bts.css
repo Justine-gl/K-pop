@@ -122,14 +122,12 @@ background: linear-gradient(to right, #654ea3, #eaafc8); /* W3C, IE 10+/ Edge, F
 .premier_niveau {
   display: flex;
   justify-content: space-around;
-  padding-left: 40px;
-  padding-right: 40px;
+  margin: 100px 50px 90px 50px;
 }
 .deuxieme_niveau {
   display: flex;
   justify-content: space-around;
-  padding-left: 40px;
-  padding-right: 40px;
+  margin: 100px 50px 90px 50px;
 }
 .img_membre {
   width: 250px;
